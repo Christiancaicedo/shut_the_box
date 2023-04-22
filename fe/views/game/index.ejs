@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,32 @@
     <title>Shut The Box</title>
     <link rel="stylesheet" href="app.css">
 </head>
+
 <body>
     <div>
-        <p id="1">1</p>
-        <p id="2">2</p>
-        <p id="3">3</p>
-        <p id="4">4</p>
-        <p id="5">5</p>
-        <p id="6">6</p>
-        <p id="7">7</p>
-        <p id="8">8</p>
-        <p id="9">9</p>
-        <p id="10">10</p>
-        <p id="11">11</p>
-        <p id="12">12</p>
+        <p id="1" onclick="numClick(this.id)">1</p>
+        <p id="2" onclick="numClick(this.id)">2</p>
+        <p id="3" onclick="numClick(this.id)">3</p>
+        <p id="4" onclick="numClick(this.id)">4</p>
+        <p id="5" onclick="numClick(this.id)">5</p>
+        <p id="6" onclick="numClick(this.id)">6</p>
+        <p id="7" onclick="numClick(this.id)">7</p>
+        <p id="8" onclick="numClick(this.id)">8</p>
+        <p id="9" onclick="numClick(this.id)">9</p>
+        <p id="10" onclick="numClick(this.id)">10</p>
+        <p id="11" onclick="numClick(this.id)">11</p>
+        <p id="12" onclick="numClick(this.id)">12</p>
     </div>
 
     <div>
         <h2 id="dRoll1">Dice Roll 1: </h2>
         <h2 id="dRoll2">Dice Roll 2: </h2>
         <h3 id="dTotal">Dice Total: </h2>
-        <button id="rollDice">Roll Dice</button>
+            <button id="rollDice">Roll Dice</button>
+            <button id="reset">Reset</button>
     </div>
-
 
     <script src="game.js"></script>
 </body>
+
 </html>
